@@ -1,6 +1,6 @@
 # Spring Boot CRUD Demo
 
-This is a mini project built with **Spring Boot** that demonstrates basic **CRUD (Create, Read, Update, Delete)** functionality. It connects to a MySQL database and uses Spring Data JPA for database interactions.
+This is a mini application project built with **Spring Boot** that demonstrates basic **CRUD (Create, Read, Update, Delete)** functionality. It connects to a MySQL database and uses Spring Data JPA for database interactions.
 
 ## Features
 
