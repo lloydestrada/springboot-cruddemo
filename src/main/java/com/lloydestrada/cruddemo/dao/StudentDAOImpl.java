@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 public class StudentDAOImpl implements StudentDAO{
 
     //define field
-    private EntityManager  entityManager;
+    private EntityManager entityManager;
 
     //inject entity manager using constructor injection
     @Autowired
@@ -25,4 +25,11 @@ public class StudentDAOImpl implements StudentDAO{
     public void save(Student theStudent) {
         entityManager.persist(theStudent);
     }
+
+    //retrieving the id
+    @Override
+    public Student findById(Integer id) {
+        return entityManager.find(Student.class, id);
+    }
+
 }

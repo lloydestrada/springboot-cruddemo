@@ -23,15 +23,18 @@ public class Student {
     @Column(name="email")
     private String email;
 
+    @Column(name="age")
+    private int age;
+
     //define constructors
     public Student() {
-
     }
 
-    public Student(String firstName, String lastName, String email) {
+    public Student(String firstName, String lastName, String email, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+        this.age = age;
     }
 
     //define getters/setters
@@ -67,9 +70,16 @@ public class Student {
         this.email = email;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age){
+        this.age = age;
+    }
+
 
     //define toString() method
-
     @Override
     public String toString() {
         return "Student{" +
