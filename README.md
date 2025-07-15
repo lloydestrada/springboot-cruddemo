@@ -5,7 +5,6 @@ This is a mini application project built with **Spring Boot** that demonstrates 
 ## Features
 
 - Create, Read, Update, and Delete operations
-- RESTful API architecture
 - MySQL database integration
 - Basic project structure for learning and demo purposes
 
